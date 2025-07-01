@@ -7,6 +7,9 @@ body {
     background-color: #ffffff;
     color: #434455;
 }
+ul {
+    list-style-type: none;
+}
 .logo {
     text-decoration: none;
     font-family: "Raleway", sans-serif;
@@ -18,21 +21,18 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-header .logo span{
+.studio{
     color: #2e2f42;
 }
-footer .logo span{
+.finale .studio{
     color: #F4F4FD;
 }
-ul {
-    list-style-type: none;
-}
-nav ul a {
+.navigation .page {
     color: #2E2F42;
     font-weight: 500;
     letter-spacing: 0.02em;
 }
-nav ul a:hover, nav ul a:focus {
+.navigation .page:hover, .navigation .page:focus {
     color: #404BBF;
 }
 .contacts {
