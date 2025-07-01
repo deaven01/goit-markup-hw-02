@@ -85,7 +85,7 @@ ul {
     color: #ffffff;
     background-color: #2E2F42;
 }
-.banner .order {
+.banner .service {
     border: 0;
     background-color: #4D5AE5;
     color: #ffffff;
@@ -96,7 +96,7 @@ ul {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.banner .order:hover, .banner .order:focus {
+.banner .service:hover, .banner .service:focus {
     background-color: #404BBF;
 }
 .team {
