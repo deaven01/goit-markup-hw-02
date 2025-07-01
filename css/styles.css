@@ -1,19 +1,26 @@
 body {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
+    background-color: #ffffff;
+    color: #434455;
 }
 .logo {
     color: #2E2F42;
     text-decoration: none;
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: bold;
     letter-spacing: 3%;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 .logo span{
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 footer .logo{
     color: #F4F4FD;
@@ -23,14 +30,17 @@ ul {
 }
 nav ul a {
     color: #2E2F42;
+    font-weight: 500;
 }
 nav ul a:hover {
     color: #404BBF;
 }
 address a {
     color: #434455;
+    font-style: normal;
+    letter-spacing: 0.02em;
 }
-address a:hover {
+address a:hover, address a:focus {
     color: #404BBF;
 }
 a {
@@ -44,16 +54,28 @@ h1 {
     font-weight: bold;
     letter-spacing: 2%;
     height: 60px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    background-color: #2E2F42;
 }
 h2 {
     font-weight: bold;
     font-size: 36px;
     letter-spacing: 2%;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 h3 {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 2%;
+}
+.desc {
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .banner {
     color: #ffffff;
@@ -63,9 +85,12 @@ h3 {
     border: 0;
     background-color: #4D5AE5;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .banner button:hover {
     background-color: #404BBF;
