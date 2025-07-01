@@ -35,23 +35,23 @@ nav ul a {
 nav ul a:hover, nav ul a:focus {
     color: #404BBF;
 }
-address {
+.contacts {
     font-style: normal;
 }
-address a {
+.contacts .contact {
     color: #434455;
     letter-spacing: 0.02em;
 }
-address a:hover, address a:focus {
+.contacts .contact:hover, .contacts .contact:focus {
     color: #404bbf;
 }
-a {
+.page, .contact {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 4%;
     text-decoration: none;
 }
-h1 {
+.head {
     font-size: 56px;
     font-weight: bold;
     letter-spacing: 2%;
@@ -61,7 +61,7 @@ h1 {
     color: #ffffff;
     background-color: #2E2F42;
 }
-h2 {
+.subheader {
     font-weight: bold;
     font-size: 36px;
     letter-spacing: 2%;
@@ -69,11 +69,13 @@ h2 {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-h3 {
+.list-heading {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 2%;
     color: #2e2f42;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .desc {
     letter-spacing: 0.02em;
@@ -83,7 +85,7 @@ h3 {
     color: #ffffff;
     background-color: #2E2F42;
 }
-.banner button {
+.banner .order {
     border: 0;
     background-color: #4D5AE5;
     color: #ffffff;
@@ -94,12 +96,8 @@ h3 {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.banner button:hover, .banner button:focus {
+.banner .order:hover, .banner .order:focus {
     background-color: #404BBF;
-}
-.advantage {
-    letter-spacing: 0.02em;
-    line-height: 1.2;
 }
 .team {
     background-color: #F4F4FD;
@@ -109,15 +107,11 @@ h3 {
     text-align: center;
     text-transform: capitalize;
 }
-.team h3 {
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.team ul li{
+.team .example{
     background-color: #ffffff;
     letter-spacing: 0.02em;
 }
-.portfolio h2 {
+.portfolio .subheader {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
@@ -125,18 +119,14 @@ h3 {
 .portfolio .example {
     background-color: #ffffff;
 }
-.portfolio .example h3 {
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-.portfolio .example p {
+.portfolio .list-about {
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-footer {
+.finale {
     background-color: #2E2F42 ;
     color: #F4F4FD;
 }
-footer p{
+.footer-desc{
     letter-spacing: 0.02em;
 }
