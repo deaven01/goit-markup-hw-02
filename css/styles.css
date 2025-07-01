@@ -8,7 +8,6 @@ body {
     color: #434455;
 }
 .logo {
-    color: #2E2F42;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
     font-weight: bold;
@@ -19,10 +18,10 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.logo span{
+header .logo span{
     color: #2e2f42;
 }
-footer .logo{
+footer .logo span{
     color: #F4F4FD;
 }
 ul {
@@ -31,8 +30,9 @@ ul {
 nav ul a {
     color: #2E2F42;
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
-nav ul a:hover {
+nav ul a:hover, nav ul a:focus {
     color: #404BBF;
 }
 address {
@@ -43,7 +43,7 @@ address a {
     letter-spacing: 0.02em;
 }
 address a:hover, address a:focus {
-    color: #404BBF;
+    color: #404bbf;
 }
 a {
     font-weight: 400;
@@ -55,7 +55,6 @@ h1 {
     font-size: 56px;
     font-weight: bold;
     letter-spacing: 2%;
-    height: 60px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
@@ -98,8 +97,17 @@ h3 {
 .banner button:hover, .banner button:focus {
     background-color: #404BBF;
 }
+.advantage {
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
 .team {
     background-color: #F4F4FD;
+}
+.team .subheader {
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
 }
 .team h3 {
     line-height: 1.2;
@@ -107,6 +115,8 @@ h3 {
 }
 .team ul li{
     box-shadow: 0px 2px 4px #2E2F42;
+    background-color: #ffffff;
+    letter-spacing: 0.02em;
 }
 .portfolio h2 {
     line-height: 1.11;
